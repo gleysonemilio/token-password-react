@@ -1,20 +1,32 @@
 {
   "name": "token-password-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Package token/password step",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/sample.ts",
+    "build": "tsc --declaration"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gleysonemilio/token-password-react.git"
   },
-  "keywords": ["token", "field"],
+  "keywords": [
+    "token",
+    "field"
+  ],
   "author": "gleysonemilio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gleysonemilio/token-password-react/issues"
   },
-  "homepage": "https://github.com/gleysonemilio/token-password-react#readme"
+  "homepage": "https://github.com/gleysonemilio/token-password-react#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
 }

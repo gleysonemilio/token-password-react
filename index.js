@@ -5,6 +5,6 @@ function formatCep(value) {
         .replace(/(\d{5})(\d)/, "$1-$2")
 }
 
-module.export = {
+module.exports = {
     formatCep
 }

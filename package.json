@@ -1,0 +1,20 @@
+{
+  "name": "token-password-react",
+  "version": "1.0.0",
+  "description": "Package token/password step",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleysonemilio/token-password-react.git"
+  },
+  "keywords": ["token", "field"],
+  "author": "gleysonemilio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gleysonemilio/token-password-react/issues"
+  },
+  "homepage": "https://github.com/gleysonemilio/token-password-react#readme"
+}

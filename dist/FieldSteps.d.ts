@@ -1,7 +1,10 @@
 /// <reference types="react" />
-import './style.css';
+import './Styles.css';
 interface Props {
-    numb: number;
+    onSendValue: (value: string) => void;
+    lengthField?: number;
+    error?: boolean;
+    color?: string;
 }
-export declare const FieldSteps: ({ numb }: Props) => JSX.Element;
+export declare const FieldSteps: ({ onSendValue, lengthField, error, color }: Props) => JSX.Element;
 export {};

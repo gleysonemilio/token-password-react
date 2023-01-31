@@ -131,12 +131,4 @@ export const FieldSteps = ({ onSendValue, lengthField = 6, error, color = '' }: 
   )
 }
 
-{
-  /* <TextInput
 
-id={`text-input-${index}`}
-hasIcon={false}
-typeInput="control-pix-key"
-success={true}
-/> */
-}

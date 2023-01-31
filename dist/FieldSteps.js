@@ -101,5 +101,3 @@ const FieldSteps = ({ onSendValue, lengthField = 6, error, color = '' }) => {
             }, pattern: "[false0-9]*", inputMode: "numeric" })))));
 };
 exports.FieldSteps = FieldSteps;
-{
-}

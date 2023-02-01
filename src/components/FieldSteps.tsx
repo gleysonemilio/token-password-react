@@ -8,7 +8,7 @@ interface Props {
   color?: string
 }
 
-export const FieldSteps = ({ onSendValue, lengthField = 6, error, color = '' }: Props) => {
+ const FieldSteps = ({ onSendValue, lengthField = 6, error, color = '' }: Props) => {
   const [fieldArray, setFieldArray] = useState<string[]>([''])
 
   useEffect(() => {
@@ -132,3 +132,4 @@ export const FieldSteps = ({ onSendValue, lengthField = 6, error, color = '' }: 
 }
 
 
+export default FieldSteps

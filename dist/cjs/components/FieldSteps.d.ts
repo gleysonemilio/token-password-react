@@ -6,5 +6,5 @@ interface Props {
     error?: boolean;
     color?: string;
 }
-export declare const FieldSteps: ({ onSendValue, lengthField, error, color }: Props) => JSX.Element;
-export {};
+declare const FieldSteps: ({ onSendValue, lengthField, error, color }: Props) => JSX.Element;
+export default FieldSteps;

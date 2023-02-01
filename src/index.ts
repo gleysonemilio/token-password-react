@@ -1,2 +1,3 @@
-export * from './FieldSteps'
-export * from './Teste'
+import FieldSteps from './components/FieldSteps'
+
+export { FieldSteps }

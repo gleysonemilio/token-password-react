@@ -1,6 +1,6 @@
 {
   "name": "token-password-react",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Package token/password step",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -31,8 +31,16 @@
   "homepage": "https://github.com/gleysonemilio/token-password-react#readme",
   "devDependencies": {
     "@types/react": "^18.0.12",
+    "@types/styled-components": "^5.1.26",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@types/styled-components": "^5.1.26",
+    "react-hook-form": "^7.43.0",
+    "react-is": ">=16.8.0",
+    "styled-components": "^5.3.6",
+    "tslib": "^2.5.0"
   }
 }
